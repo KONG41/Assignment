@@ -69,11 +69,21 @@
   height: 60px;
   background-color: rgba(0, 0, 255, 0.644);
 }
-.nav-bar .select {
-  width: 50px;
-  height: 100%;
+.nav-bar i {
+  font-size: 50px;
   margin-left: 10px;
+  margin-top: 5px;
+  cursor: pointer;
 }
+.nav-bar i ul {
+  background-color: #61dafb;
+}
+.nav-bar i ul li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
 .nav-bar .logout {
   background-color: red;
   float: right;
